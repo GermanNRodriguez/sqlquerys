@@ -1,0 +1,8 @@
+IF OBJECT_ID ('obtainGrupo','P') IS NOT NULL 
+DROP PROCEDURE obtainGrupo;
+GO
+CREATE PROCEDURE obtainGrupo
+AS
+BEGIN
+	SELECT * FROM dbo.Grupo
+END
